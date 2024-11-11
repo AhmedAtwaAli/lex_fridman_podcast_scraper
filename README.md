@@ -74,8 +74,8 @@ Key dependencies:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/AhmedAtwaAli/lex.git
-cd lex
+git clone https://github.com/AhmedAtwaAli/lex_fridman_podcast_scraper.git
+cd lex_fridman_podcast_scraper
 ```
 
 2. Create and activate a virtual environment (recommended):
@@ -120,20 +120,6 @@ The notebook will:
 ## Output Format
 
 The notebook generates a CSV file with the following columns:
-* `episode_number`
-* `title`
-* `guest_name`
-* `publish_date`
-* `views`
-* `likes`
-* `top_keywords`
-* `guest_nationality`
-* `guest_profession`
-* `guest_birth_year`
-* `guest_death_year`
-* `transcript`
-* `description`
-
 * `yt_url`: URL of the YouTube video
 * `number`: Episode number
 * `guest`: Guest name
