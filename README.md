@@ -187,10 +187,6 @@ This notebook is intended for educational and personal use only. Please be mindf
 
 The accuracy of biographical data scraped from Wikipedia and Wikidata is not guaranteed. Always verify critical information from primary sources.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 * Lex Fridman for creating valuable content
