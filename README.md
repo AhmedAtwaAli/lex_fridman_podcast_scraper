@@ -11,7 +11,6 @@ A Jupyter Notebook-based project that scrapes and analyzes data from the Lex Fri
 * **Web Scraping:**
   * Extracts episode links from the Lex Fridman website using BeautifulSoup
   * Handles dynamic content loading
-  * Implements responsible scraping practices with built-in delays
 
 * **YouTube Integration:**
   * Leverages YouTube Data API v3 for comprehensive video metadata
@@ -22,11 +21,8 @@ A Jupyter Notebook-based project that scrapes and analyzes data from the Lex Fri
   * Downloads episode transcripts using `youtube_transcript_api`
   * Cleans and formats caption data
   * Processes English language transcripts
-
-* **Content Analysis:**
   * Identifies top 5 keywords per episode using frequency analysis
   * Excludes common stop words and irrelevant terms
-  * Provides insights into episode content
 
 * **Guest Information:**
   * Scrapes biographical data from Wikipedia and Wikidata
@@ -39,15 +35,16 @@ A Jupyter Notebook-based project that scrapes and analyzes data from the Lex Fri
 * **Data Management:**
   * Implements error handling for failed requests
   * Standardizes data formats for consistency
-  * Exports to CSV with proper encoding (`lex_fridman_podcast_episodes.csv`)
+  * Exports to CSV with proper encoding (`Lex Fridman Podcast Episodes.csv`)
 
 ## Project Structure
 
 ```
 lex/
-├── lex_fridman_scraper.ipynb    # Main Jupyter Notebook containing the scraping code
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
+├── Lex Fridman Podcast Webscraping.ipynb    # Main Jupyter Notebook containing the scraping code
+├── requirements.txt                         # Project dependencies
+└── README.md                                # Project documentation
+└── Lex Fridman Podcast Episodes.csv         # Project csv output
 ```
 
 ## Requirements
@@ -107,7 +104,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-3. Open `lex_fridman_scraper.ipynb` in your browser.
+3. Open `Lex Fridman Podcast Webscraping.ipynb` in your jupyter notebook IDE.
 
 4. Run the notebook:
    * You can run all cells at once using the "Run All" button
@@ -136,6 +133,29 @@ The notebook generates a CSV file with the following columns:
 * `guest_death_year`
 * `transcript`
 * `description`
+
+* `yt_url`: URL of the YouTube video
+* `number`: Episode number
+* `guest`: Guest name
+* `nationality`: Guest nationality
+* `profession`: Guest profession
+* `birth_year`: Guest birth year
+* `death_year`: Guest death year (if applicable)
+* `birth_year_estimated`: If birth year is estimated or not
+* `summary`: Brief summary of the content
+* `description`: Detailed description of the content
+* `upload_date`: Date the video was uploaded
+* `duration`: Duration of the video (ISO 8601 format e.g., "PT1H23M45S")
+* `duration_minutes`: Duration in minutes
+* `views`: Number of views
+* `likes`: Number of likes
+* `comments_count`: Number of comments
+* `tags`: Keywords or tags associated with the video
+* `top_five_words`: Top five said words from the content
+* `favorite_count`: Number of favorites
+* `region_restriction`: Any regional restrictions on the video
+* `thumbnail_url`: URL of the video thumbnail
+* `captions_availability`: Availability of captions
 
 ## Contributing
 
