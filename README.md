@@ -1,4 +1,4 @@
-# Lex Fridman Podcast Data Scraper
+# Lex Fridman Podcast Data Scraper 🎤
 
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
