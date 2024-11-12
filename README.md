@@ -166,12 +166,17 @@ When contributing to the notebook:
 ## Disclaimer
 
 This notebook is intended for educational and personal use only. Please be mindful of:
-* YouTube's terms of service and API quotas
-* Wikipedia's and Wikidata's usage policies
-* Potential copyright restrictions on transcripts
-* Rate limiting and responsible scraping practices
 
-The accuracy of biographical data scraped from Wikipedia and Wikidata is not guaranteed. Always verify critical information from primary sources.
+- YouTube's terms of service and API quotas
+- Wikipedia's and Wikidata's usage policies
+- Potential copyright restrictions on transcripts
+- Rate limiting and responsible scraping practices
+
+The code and CSV files included were generated on November 10, 2024. Due to limitations in the available data from Wikipedia, Wikidata, and other sources, the biographical information for some guests may be incomplete or inaccurate as of that date.
+
+If you use this code after November 10, 2024, you may need to manually update or supplement the guest data, especially for the nationality, profession and birth and death years fields, as new guests may have been added to the podcast and the data sources may have changed. The accuracy of the biographical data scraped from Wikipedia and Wikidata is not guaranteed, so you should always verify critical information from primary sources.
+
+Please keep in mind that the code and data provided here may become outdated over time, and you may need to adapt it to your specific use case and data sources. Use this content responsibly and at your own risk.
 
 ## Acknowledgments
 
