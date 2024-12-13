@@ -4,7 +4,7 @@
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Jupyter Notebook-based project that scrapes and explores data from the Lex Fridman Podcast, combining information from multiple sources including the official website, YouTube, Wikipedia, and Wikidata. The notebook generates a structured dataset suitable for analysis and research purposes.
+A Jupyter Notebook-based project that scrapes and does simple feature engineering on data from the Lex Fridman Podcast, combining information from multiple sources including the official website, YouTube, Wikipedia, and Wikidata. The notebook generates a structured dataset suitable for analysis and research purposes.
 
 ## Features
 
