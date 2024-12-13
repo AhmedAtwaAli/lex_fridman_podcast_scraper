@@ -4,7 +4,7 @@
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Jupyter Notebook-based project that scrapes and analyzes data from the Lex Fridman Podcast, combining information from multiple sources including the official website, YouTube, Wikipedia, and Wikidata. The notebook generates a structured dataset suitable for analysis and research purposes.
+A Jupyter Notebook-based project that scrapes and explores data from the Lex Fridman Podcast, combining information from multiple sources including the official website, YouTube, Wikipedia, and Wikidata. The notebook generates a structured dataset suitable for analysis and research purposes.
 
 ## Features
 
@@ -37,6 +37,12 @@ A Jupyter Notebook-based project that scrapes and analyzes data from the Lex Fri
   * Standardizes data formats for consistency
   * Exports to CSV with proper encoding (`Lex Fridman Podcast Episodes.csv`)
 
+* **Statistical Exploration & Feature Engineering:** 
+  * Simple statistical data exploration.
+  * Checks for null values, duplicates, and explores outliers.
+  * Checks simple data integrity features, such as the number of the episode.
+  * Extracts new features such as upload year, month, day of the week, time of the day, season of the year, and new engagement ratios. 
+
 ## Project Structure
 
 ```
@@ -45,6 +51,8 @@ lex/
 ├── requirements.txt                         # Project dependencies
 └── README.md                                # Project documentation
 └── Lex Fridman Podcast Episodes.csv         # Project csv output
+└── Lex Fridman Podcast Analysis.ipynb       # Jupyter Notebook containing the feature engineering
+└── lex_fridman_podcast_analysis.csv         # Simple Analysis csv output
 ```
 
 ## Requirements
